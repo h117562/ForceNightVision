@@ -21,5 +21,4 @@ end
 GLOBAL.TheInput:AddKeyUpHandler(TOGGLE_KEY, function ()
     if not InGame() then return end
     ToggleNightVision()
-end
-)
+end)
